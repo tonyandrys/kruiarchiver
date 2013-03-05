@@ -1,0 +1,7 @@
+KRUI Archiver
+
+Dependencies: 
+	> Streamripper: http://streamripper.sourceforge.net/
+	NOTE: The Windows or any GUI versions are not supported. 
+	
+	> Glib http://developer.gnome.org/glib/2.34/
