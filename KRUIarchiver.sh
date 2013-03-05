@@ -6,7 +6,6 @@
 # Ripping engine power by streamripper, written by Greg Sharp (gregsharp@users.sourceforge.net).
 ###
 
-#Loop indefinitely for now...
 while [ 1 -le 2 ]
 do
 
@@ -52,17 +51,6 @@ do
 		printf "\n** FATAL ERROR: streamripper cannot be found! Streamripper must in the same directory as this script or in your '$PATH'."
 		exit 1
 	fi
-	
-	#Check that there isn't two streamripper processes running.
-	#echo -n "> Ensuring this process has exclusive access to the audio device..."
-	#ps aux | grep '[s]treamripper' > /dev/null
-	#if [ $? == 0 ] 
-	#then
-    #		printf "OK!\n"
-	#else
-	#	printf "\nStreamripper is running! Closing...\n"
-	#	exit 1
-	#fi
 	
 	# Ensure we have internet access.
 	echo -n "> Checking for an internet connection..."
