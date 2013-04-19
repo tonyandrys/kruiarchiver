@@ -3,7 +3,7 @@
 #
 # Stores internet radio streams in hour increments and archives them appropriately.
 # Originally written for KRUI (http://www.krui.fm), but adaptable anywhere.
-# Ripping engine power by streamripper, written by Greg Sharp (gregsharp@users.sourceforge.net).
+# Ripping engine powered by streamripper, written by Greg Sharp (gregsharp@users.sourceforge.net).
 ###
 
 while [ 1 -le 2 ]
